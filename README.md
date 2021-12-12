@@ -1,6 +1,9 @@
 # One Catalogue
-První pokus o zpracování zadání 
-Test for One Catalogue Team @ Heureka
+**První pokus o zpracování zadání 
+Test for One Catalogue Team @ Heureka**
+**Jako databázi pro ukládání záznamů jsem zvolil MongoDB, pro správnou funkci je potřeba nainstalovat****
+
+
 We want our test to be close to what you would actually be doing if accepted. Therefore we would like you to create a small Catalogue service. 
 Our goal is to have the assignment easy enough to be doable within 6-8 hours, yet difficult enough so that you can showcase what you are capable of. If you think we aren’t meeting either of those goals, please let us know!
 Assignment
@@ -8,7 +11,7 @@ Create a service in Python/Golang. Publish its source code on GitHub or GitLab.
 
 Minimum requirements:
 Consumes messages from Kafka (details below)
-Stores data based on those messages (database of your choice) #- zvolil jsem MongoDB, pro správnou funkci je potřeba nainstalovat
+Stores data based on those messages (database of your choice) **
 Not all data are present in the messages, some need to be fetched from an existing API
 When a product (see below) is matched with another, check how many parameters they have in common and how many differ, store that information 
 Test your service
